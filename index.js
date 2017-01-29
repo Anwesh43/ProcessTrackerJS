@@ -1,0 +1,5 @@
+var processTracker = new ProcessTracker("#FF5722")
+processTracker.addProcess("Order Confirmed")
+processTracker.addProcess("On The Way")
+processTracker.addProcess("Delivered")
+processTracker.create()
